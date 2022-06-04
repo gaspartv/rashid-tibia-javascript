@@ -20,14 +20,12 @@ let imgRashid = new Array(
 
 let dia = new Date();
 let h = dia.getHours();
-let m = dia.getMinutes();
-let formato = (h < 10 ? '0'+ h : h) + ":" + (m < 10 ? '0' + m : m);
-let cidade = (localRashid[dia.getDay()]);
+let diaSemana = (localRashid[dia.getDay()]);
 let servesave = 5;
 let classRashid = "criatura-dia-img-1";
 
 function time() {
-    if (cidade == localRashid[0]) {
+    if (diaSemana == localRashid[0]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[0];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[0] + "'>";
@@ -36,7 +34,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[6] + "'>";
         }
     }
-    if (cidade == localRashid[1]) {
+    if (diaSemana == localRashid[1]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[1];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[1] + "'>";
@@ -45,7 +43,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[0] + "'>";
         }
     }
-    if (cidade == localRashid[2]) {
+    if (diaSemana == localRashid[2]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[2];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[2] + "'>";
@@ -54,7 +52,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[1] + "'>";
         }
     }
-    if (cidade == localRashid[3]) {
+    if (diaSemana == localRashid[3]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[3];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[3] + "'>";
@@ -63,7 +61,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[2] + "'>";
         }
     }
-    if (cidade == localRashid[4]) {
+    if (diaSemana == localRashid[4]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[4];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[4] + "'>";
@@ -72,7 +70,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[3] + "'>";
         }
     }
-    if (cidade == localRashid[5]) {
+    if (diaSemana == localRashid[5]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[5];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[5] + "'>";
@@ -81,7 +79,7 @@ function time() {
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[4] + "'>";
         }
     }
-    if (cidade == localRashid[6]) {
+    if (diaSemana == localRashid[6]) {
         if (h >= servesave) {
             document.getElementById('rashid-day').innerHTML = localRashid[6];
             document.getElementById("rashid-img").innerHTML = "<img class='" + classRashid + "' src='" + imgRashid[6] + "'>";
