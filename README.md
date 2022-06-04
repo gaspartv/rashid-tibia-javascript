@@ -38,8 +38,15 @@ O HTML5 e CSS3 foram feitos para serem implementados em qualquer site na propor�
 4. Quarto criei uma variável para armazenar o horário do Server Save no caso 5:00am
 5. Quinto comecei a trabalhar na function que foi feita da seguinte forma, dei o nome de time()
     * Dentro da Function abri um IF para comparar se o dia da semana _"vamos supor que hoje e Quarta-Feira"_ esta igual ao _Array_ das cidades
-        * if (diaSemana == localRashid[0]) - Este IF verifica se diaSemana _"No caso aqui dia da semana"_ e igual ao localRashid 0
+        * if (diaSemana == localRashid[0]) - Este IF verifica se diaSemana e igual ao localRashid 0
         * Se a condição for True ele passa para o próximo IF, caso seja False ele volta para o IF anterior e confere o localRashid 1 e assim por diante até o localRashid 6
         * Esse IF confere se o horário que estamos agora e maior ou igual ao horário do Server Save
         * Se o horário for maior ou igual ele executa uma ação que mostra no navegador onde o NPC Rashid se encontra na Quarta-Feira, neste caso em Port Hope
         * Caso o horário seja menor ele executa outra ação que também mostra no navegador o local que o NPC Rashid se encontra no dia anterio, neste caso em Liberty Bay.
+
+## Implementações 2.0
+
+* Cada dia da semana mostra uma imagem de fundo diferente, referente a cidade que o NPC Rashid se encontra.
+
+
+## Estou melhorando este código...
