@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/forall.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" type="image/x-icon" href="/img/png.png">
+    <title>Gaspar TV - Tudo sobre Tibia.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body onload="time()">
+<!-- CABEÇALHO DA PÁGINA -->
+<header>
+    <section class="sectionNav">
+        <div class="menuNav">
+    <!-- MENU PRINCIPAL -->
+        <nav> 
+            <p class="logo">Gaspar TV</p>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">HOME</a></li>
+                <li><a onclick="noticiaButton()">NOTÍCIAS</a></li>
+                <li><a onclick="videoButton()">VÍDEOS</a></li>
+                <li><a onclick="ferramentaButton()">FERRAMENTAS</a></li>
+                <li><a onclick="contatoButton()">CONTATO</a></li>
+            </ul>
+        </nav>
+
+    <!-- MENU SECUNDÁRIO -->
+        <ul class="nav-infos">
+    <!-- CRIAR UMA FUNÇÃO PARA PESQUISAR NO SITE -->
+            <form>
+                <li class="menuBuscar">
+                    <img src="img/icone-busca.png">
+                    <input type="text" placeholder="buscar no site...">
+                    <button type="submit">buscar</button>
+                </li>
+            </form>
+            <li class="li-pc" title="Download do site Tibia.com"><a href="https://static.tibia.com/download/TibiaFankit.zip" target="_blank">Fan kit</a></li>
+            <li class="li-pc" title="Download do site TibiaMaps.io"><a href="https://tibiamaps.io/downloads/minimap-with-markers" target="_blank">Map Full</a></li>
+            <li><a href="https://www.tibia.com/community/?subtopic=worlds" target="_blank">Jogadores Online: <b id="playersOnline"></b></a></li>
+        </ul>
+</header>
+</div>
+</section>
+
+<!-- CORPO DA PÁGINA -->
+<main>
+    <div class="server-save">
+        <p>Faltam <b id="ss-horas">00</b>h <b id="ss-min">00</b>m para o Server Save.</p>
+    </div>
+
+    <div class="main-div-1">
+        <div class="eventos-do-dia">
+            <img class="criatura-dia-img-1" src="/img/home/fundo.jpg">
+            <img class="criatura-dia-img-2" src="/img/home/Lavaworm.gif">
+            <div class="criatura-dia">
+                <p>Criatura Boostada</p>
+            </div>
+            <div class="criatura-dia-monstro">
+                <p>Lavaworm</p>
+            </div>
+        </div>
+
+        <div class="eventos-do-dia box-evento">
+            <img class="criatura-dia-img-1" src="/img/home/fundo.jpg">
+            <img class="criatura-dia-img-2" src="/img/home/Alptramun.gif">
+            <div class="criatura-dia">
+                <p>Dream Scar</p>
+            </div>
+            <div class="criatura-dia-monstro">
+                <p>Alptramun</p>
+            </div>
+        </div>
+
+        <div class="eventos-do-dia">
+            <div id="rashid-img"><img class="criatura-dia-img-1" src="/img/home/fundo.jpg"></div>
+            <img class="criatura-dia-img-2" src="/img/home/Rashid.gif">
+            <div class="criatura-dia">
+                <p>Rashid</p>
+            </div>
+            <div class="criatura-dia-monstro">
+                <p id="rashid-day"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-conteudo">
+        <a href="/druid.html"><p><img src="/img/home/Druid.gif"> Druid</p></a>
+        <a href=""><p><img src="/img/home/Mage.gif"> Sorcerer</p></a>
+        <a href=""><p><img src="/img/home/Knight.gif"> Knight</p></a>
+        <a href=""><p><img src="/img/home/Hunter.gif"> Paladin</p></a>
+        <a href=""><p><img src="/img/home/Outfit.gif"> Outfit</p></a>
+        <a href=""><p><img src="/img/home/Outfiter.gif"> Outfiter</p></a>
+        <a href=""><p><img src="/img/home/Donkey.gif"> Mounts</p></a>
+        <a href=""><p><img src="/img/home/Bladespark.gif"> Familiares</p></a>
+        <a href=""><p><img src="/img/home/bauquest.gif"> Quests</p></a>
+        <a href=""><p><img src="/img/home/Blessed_Shield.gif"> Itens</p></a>
+        <a href=""><p><img src="/img/home/Dragon.gif"> Criaturas</p></a>
+        <a href=""><p><img src="/img/home/Contract.gif"> Achievements</p></a>
+        <a href=""><p><img src="/img/home/Globe.gif"> Mapa</p></a>
+        <a href=""><p><img src="/img/home/50px-Gilded_Imbuing_Shrine.gif"> Imbuement</p></a>
+        <a href=""><p><img src="/img/home/Items.gif"> Exaltations</p></a>
+        <a href=""><p><img src="/img/home/The_Epic_Wisdom.gif"> World Quests</p></a>
+        <a href=""><p><img src="/img/home/H.L..gif"> NPCs</p></a>
+        <a href=""><p><img src="/img/home/Yaman.gif"> Comerciantes</p></a>
+        <a href=""><p><img src="/img/home/Rafzan.gif"> Tasks Diárias</p></a>
+        <a href=""><p><img src="/img/home/Spellbook.gif"> Magias</p></a>
+    </div>
+</main>
+
+<!-- FIM DA PÁGINA -->
+<footer>
+    <div class="footer-infos">
+        <div class="footer-infos-bloco">
+            <h4>SOBRE</h4>
+            <ul>
+                <li><a href="./quem-somos.html">Quem Somos</a></li>
+                <li><a href="./depoimentos.html">Depoimentos</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./termos.html">Políticas e Termos de Uso</a></li>
+            </ul>
+        </div>
+        <div class="footer-infos-bloco">
+            <h4>ATENDIMENTO</h4>
+            <ul>
+                <li>E-mail: contato@gaspartv.com</li>
+            </ul>
+        </div>
+        <div class="footer-infos-bloco">
+            <h4>AJUDA!</h4>
+            <ul>
+                <li><a href="./suporte.html">Suporte</a></li>
+                <li><a href="./perguntas.html">Perguntas frequentes</a></li>
+                <li><a href="./contato.html">Entre em contato</a></li>
+            </ul>
+        </div>
+    </div>
+<!-- BOTÃO DAS REDES SOCIAIS -->
+    <ul class="barra-footer">
+        <li><a href="https://www.youtube.com/gaspartv" target="_blank"><img src="/img/icone-youtube.png"></a></li> 
+        <li><a href="https://www.instagram.com/gaspardbobs/" target="_blank"><img src="/img/icone-instagram.png"></a></li> 
+        <li><a href="https://facebook.com/gsprtv" target="_blank"><img src="/img/icone-facebook.png"></a></li>
+<!-- BOTÃO DA NEWSLETTER -->
+            <form>
+                <li class="newsletter">
+                    <label for="newsletterId">Receber novidades:</label>
+                    <input type="email" name="emailNewsletter" id="newsletterId" size="25" required placeholder=" Digite seu melhor email aqui..."/>
+                    <button type="submit">Ok</button>
+                </li>
+            </form>
+    </ul>
+</footer>
+
+<!-- JAVASCRIPT -->
+    <script src="/js/menu.js"></script>
+    <script src="js/mobile-navbar.js"></script>
+    <script src="/js/playersonline.js"></script>
+    <script src="/js/serversave.js"></script>
+    <script src="/js/creaturaday.js"></script>
+    <script src="/js/prints.js"></script>
+    <script src="/js/rashid.js"></script>
+
+</body>
+</html>
