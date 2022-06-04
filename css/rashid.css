@@ -1,0 +1,42 @@
+.boxRashid {
+    position: relative;
+    width: 300px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rashidIMG {
+    position: absolute;
+    left: 120px;
+    top: 70px;
+}
+
+.rashidTEXT {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:rgb(255, 255, 255);
+  top: 12px;
+  width: 100%;
+  line-height: 1px;
+}
+
+.rashidTEXT p {
+    padding-left: 15px;
+    letter-spacing: 4px;
+    font-size: larger;
+  }
+
+.rashidLOCAL {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255);
+    top: 155px;
+    width: 100%;
+    line-height: 1px;  
+    text-align: center;
+}
+
+.rashidLOCAL p {
+  padding-left: 15px;
+  letter-spacing: 4px;
+  font-size: larger;
+}

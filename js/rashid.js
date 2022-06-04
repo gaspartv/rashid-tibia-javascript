@@ -9,13 +9,13 @@ let localRashid = new Array (
     );
 
 let imgRashid = new Array(
-    "/img/rashid/carlinmap.png", // 0
-    "/img/rashid/svarmap.png", // 1
-    "/img/rashid/lbmap.png", // 2
-    "/img/rashid/phmap.png", // 3
-    "/img/rashid/ankmap.png", // 4
-    "/img/rashid/daramap.png", // 5
-    "/img/rashid/edronmap.png" // 6
+    "./img/carlinmap.png", // 0
+    "./img/svarmap.png", // 1
+    "./img/lbmap.png", // 2
+    "./img/phmap.png", // 3
+    "./img/ankmap.png", // 4
+    "./img/daramap.png", // 5
+    "./img/edronmap.png" // 6
     );
 
 let dia = new Date();
