@@ -2,8 +2,6 @@
 
 ## Como foi criado ?
 
-## Implementações 1.0
-
 A ideia veio do jogo __Tibia__
 
 Cada dia o NPC Rashid aparece em uma cidade diferente, porém em uma ordem especifica.
@@ -49,6 +47,13 @@ O HTML5 e CSS3 foram feitos para serem implementados em qualquer site na propor�
         * Esse IF confere se o horário que estamos agora e maior ou igual ao horário do Server Save
         * Se o horário for maior ou igual ele executa uma ação que mostra no navegador onde o NPC Rashid se encontra na Quarta-Feira, neste caso em Port Hope
         * Caso o horário seja menor ele executa outra ação que também mostra no navegador o local que o NPC Rashid se encontra no dia anterio, neste caso em Liberty Bay.
+
+
+## Implementações 1.0
+
+* O script confere o horário atual e o dia da semana.
+* Desta forma ele consegue reconhecer em qual cidade o NPC Rashid se encontra no dia e horário da consulta.
+
 
 ## Implementações 2.0
 
