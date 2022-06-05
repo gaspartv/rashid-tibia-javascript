@@ -2,6 +2,8 @@
 
 ## Como foi criado ?
 
+## Implementações 1.0
+
 A ideia veio do jogo __Tibia__
 
 Cada dia o NPC Rashid aparece em uma cidade diferente, porém em uma ordem especifica.
