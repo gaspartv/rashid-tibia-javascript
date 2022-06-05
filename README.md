@@ -2,6 +2,8 @@
 
 ## Como foi criado ?
 
+#### Implementações 1.0
+
 A ideia veio do jogo __Tibia__
 
 Cada dia o NPC Rashid aparece em uma cidade diferente, porém em uma ordem especifica.
@@ -48,6 +50,19 @@ O HTML5 e CSS3 foram feitos para serem implementados em qualquer site na propor�
         * Se o horário for maior ou igual ele executa uma ação que mostra no navegador onde o NPC Rashid se encontra na Quarta-Feira, neste caso em Port Hope
         * Caso o horário seja menor ele executa outra ação que também mostra no navegador o local que o NPC Rashid se encontra no dia anterio, neste caso em Liberty Bay.
 
+#### Implementações 2.0
+
+Com o script funcionando resolvi fazer algumas melhorias.
+
+* Organizei a página HTML5
+* Organizei o CSS
+   * Adicionei um border-radius na imagem do mapa.
+* Organizei o JavaScript
+   * Troquei a versão anterior com vários IF para Switch Case.
+   * Troquei alguns Let por Const.
+   * Organizei o código para uma melhor leitura.
+
+## IMPLEMENTAÇÕES
 
 ## Implementações 1.0
 
@@ -60,4 +75,3 @@ O HTML5 e CSS3 foram feitos para serem implementados em qualquer site na propor�
 * Cada dia da semana mostra uma imagem de fundo diferente, referente a cidade que o NPC Rashid se encontra.
 * Alterei o código para Switch Case
 
-## Estou melhorando este código...
