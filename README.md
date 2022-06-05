@@ -51,6 +51,6 @@ O HTML5 e CSS3 foram feitos para serem implementados em qualquer site na propor�
 ## Implementações 2.0
 
 * Cada dia da semana mostra uma imagem de fundo diferente, referente a cidade que o NPC Rashid se encontra.
-
+* Alterei o código para Switch Case
 
 ## Estou melhorando este código...
